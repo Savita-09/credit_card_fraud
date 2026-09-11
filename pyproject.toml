@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sentinel-fraud-lab"
+version = "1.0.0"
+description = "End-to-end credit card fraud benchmark with FastAPI and React risk analytics"
+requires-python = ">=3.12"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["src*", "backend*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/web"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110

@@ -1,0 +1,122 @@
+{
+  "source_profile": {
+    "rows": 1048575,
+    "columns": 10,
+    "target": "is_fraud",
+    "numeric_features": [
+      "Amount",
+      "Time",
+      "city_pop",
+      "lat",
+      "long",
+      "merch_lat",
+      "merch_long"
+    ],
+    "categorical_features": [
+      "category",
+      "state"
+    ],
+    "dtypes": {
+      "Amount": "float64",
+      "Time": "float64",
+      "category": "object",
+      "state": "object",
+      "city_pop": "int64",
+      "lat": "float64",
+      "long": "float64",
+      "merch_lat": "float64",
+      "merch_long": "float64",
+      "is_fraud": "int64"
+    },
+    "missing_values": {
+      "Amount": 0,
+      "Time": 0,
+      "category": 0,
+      "state": 0,
+      "city_pop": 0,
+      "lat": 0,
+      "long": 0,
+      "merch_lat": 0,
+      "merch_long": 0,
+      "is_fraud": 0
+    },
+    "duplicate_rows": 0,
+    "class_counts": {
+      "0": 1042569,
+      "1": 6006
+    },
+    "fraud_percentage": 0.5727773406766326,
+    "legitimate_percentage": 99.42722265932336,
+    "split_strategy": "chronological"
+  },
+  "analysis_partition": "training only",
+  "training_rows": 629145,
+  "amount_by_class": {
+    "count": {
+      "0": 625433.0,
+      "1": 3712.0
+    },
+    "mean": {
+      "0": 67.64197141820146,
+      "1": 519.706161099138
+    },
+    "std": {
+      "0": 154.81855560814296,
+      "1": 394.6805488326452
+    },
+    "min": {
+      "0": 1.0,
+      "1": 1.18
+    },
+    "25%": {
+      "0": 9.6,
+      "1": 121.50750000000001
+    },
+    "50%": {
+      "0": 47.18,
+      "1": 357.895
+    },
+    "75%": {
+      "0": 82.43,
+      "1": 899.1325
+    },
+    "max": {
+      "0": 26544.12,
+      "1": 1371.81
+    }
+  },
+  "iqr_outlier_counts": {
+    "Amount": 32657,
+    "Time": 0,
+    "city_pop": 117925,
+    "lat": 2276,
+    "long": 24340,
+    "merch_lat": 2427,
+    "merch_long": 20435,
+    "is_fraud": 3712
+  },
+  "target_correlations": {
+    "Amount": 0.2149407047937575,
+    "Time": -0.0196276917903986,
+    "lat": 0.0047997909083286735,
+    "merch_lat": 0.004704491722804043,
+    "city_pop": -0.0012169700904812964,
+    "long": 0.0005569400131697731,
+    "merch_long": 0.0005520674938354025
+  },
+  "plots": [
+    "class_distribution.png",
+    "amount_distributions.png",
+    "time_distribution.png",
+    "correlations.png",
+    "feature_distributions_1.png"
+  ],
+  "findings": [
+    "The source fraud prevalence is 0.5728%; always predicting legitimate would look accurate.",
+    "0 exact duplicate rows are removed before splitting to avoid overlap.",
+    "No outlier rows are discarded: rare extremes can be useful fraud signals. Robust scaling and log amount reduce scale sensitivity.",
+    "Transaction category, amount and location signals are modeled. Names, card numbers and record identifiers are excluded.",
+    "Time is elapsed seconds from the configured source origin, not a verified local timezone.",
+    "Chronological train/validation/test windows evaluate later transactions; timestamps tied at boundaries stay together. Customers can recur across windows, so this is not an unseen-customer benchmark."
+  ]
+}

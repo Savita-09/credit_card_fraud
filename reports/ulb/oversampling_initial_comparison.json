@@ -1,0 +1,157 @@
+{
+  "note": "Initial oversampling comparison with unconstrained validation-F2 thresholds. This experiment did not improve validation recall.",
+  "dataset_sha256": "76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89",
+  "comparison": [
+    {
+      "name": "Random Forest",
+      "parameters": {
+        "classifier__max_depth": 18
+      },
+      "cv_pr_auc": 0.8035375221890364,
+      "threshold": 0.2877936236332483,
+      "validation": {
+        "accuracy": 0.9995241871530531,
+        "precision": 0.9135802469135802,
+        "recall": 0.7872340425531915,
+        "f1": 0.8457142857142858,
+        "f2": 0.8096280087527352,
+        "roc_auc": 0.9279769901340683,
+        "pr_auc": 0.7929948528939481,
+        "confusion_matrix": [
+          [
+            56644,
+            7
+          ],
+          [
+            20,
+            74
+          ]
+        ]
+      },
+      "training_class_counts": {
+        "before": {
+          "0": 169951,
+          "1": 284
+        },
+        "after": {
+          "0": 169951,
+          "1": 284
+        }
+      }
+    },
+    {
+      "name": "Random Forest \u00b7 random oversampling",
+      "parameters": {
+        "classifier__max_depth": 18,
+        "sampler__sampling_strategy": 0.1
+      },
+      "cv_pr_auc": 0.8102552965720321,
+      "threshold": 0.4236774193548387,
+      "validation": {
+        "accuracy": 0.9995241871530531,
+        "precision": 0.9240506329113924,
+        "recall": 0.776595744680851,
+        "f1": 0.8439306358381503,
+        "f2": 0.8021978021978022,
+        "roc_auc": 0.91230760794818,
+        "pr_auc": 0.7864339480273751,
+        "confusion_matrix": [
+          [
+            56645,
+            6
+          ],
+          [
+            21,
+            73
+          ]
+        ]
+      },
+      "training_class_counts": {
+        "before": {
+          "0": 169951,
+          "1": 284
+        },
+        "after": {
+          "0": 169951,
+          "1": 16995
+        }
+      }
+    },
+    {
+      "name": "Random Forest \u00b7 SMOTE",
+      "parameters": {
+        "classifier__max_depth": 10,
+        "sampler__sampling_strategy": 0.1
+      },
+      "cv_pr_auc": 0.8384214164367481,
+      "threshold": 0.5622363635855054,
+      "validation": {
+        "accuracy": 0.9994713190589479,
+        "precision": 0.8902439024390244,
+        "recall": 0.776595744680851,
+        "f1": 0.8295454545454546,
+        "f2": 0.7969432314410481,
+        "roc_auc": 0.9722289929718994,
+        "pr_auc": 0.7935713947275906,
+        "confusion_matrix": [
+          [
+            56642,
+            9
+          ],
+          [
+            21,
+            73
+          ]
+        ]
+      },
+      "training_class_counts": {
+        "before": {
+          "0": 169951,
+          "1": 284
+        },
+        "after": {
+          "0": 169951,
+          "1": 16995
+        }
+      }
+    },
+    {
+      "name": "XGBoost \u00b7 SMOTE",
+      "parameters": {
+        "classifier__max_depth": 5,
+        "sampler__sampling_strategy": 0.1
+      },
+      "cv_pr_auc": 0.8289057350308395,
+      "threshold": 0.7308642268180847,
+      "validation": {
+        "accuracy": 0.9995241871530531,
+        "precision": 0.9240506329113924,
+        "recall": 0.776595744680851,
+        "f1": 0.8439306358381503,
+        "f2": 0.8021978021978022,
+        "roc_auc": 0.9711359811492314,
+        "pr_auc": 0.7945257728042657,
+        "confusion_matrix": [
+          [
+            56645,
+            6
+          ],
+          [
+            21,
+            73
+          ]
+        ]
+      },
+      "training_class_counts": {
+        "before": {
+          "0": 169951,
+          "1": 284
+        },
+        "after": {
+          "0": 169951,
+          "1": 16995
+        }
+      }
+    }
+  ]
+}

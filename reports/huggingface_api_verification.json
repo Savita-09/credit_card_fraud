@@ -1,0 +1,16 @@
+{
+  "model_version": "hf-20260910T092649Z",
+  "health": "healthy",
+  "single_fraud": "passed",
+  "three_row_batch": {
+    "rows": 3,
+    "fraud": 1
+  },
+  "raw_preparation": {
+    "rows": 1000,
+    "features": 9,
+    "api_validation": "passed"
+  },
+  "sample_csv_and_offline_parity": "passed",
+  "threshold": 0.7957711219787598
+}

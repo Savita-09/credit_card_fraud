@@ -1,0 +1,32 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports: ["127.0.0.1:8000:8000"]
+    environment:
+      FRAUD_MODEL_DIR: /app/models
+      FRAUD_HISTORY_DB: /app/data/prediction_history.db
+      FRAUD_CORS_ORIGINS: ${FRAUD_CORS_ORIGINS:-http://localhost:5173,http://127.0.0.1:5173}
+      FRAUD_MAX_UPLOAD_BYTES: ${FRAUD_MAX_UPLOAD_BYTES:-5242880}
+      FRAUD_MAX_BATCH_ROWS: ${FRAUD_MAX_BATCH_ROWS:-10000}
+      FRAUD_RISK_MEDIUM: ${FRAUD_RISK_MEDIUM:-0.30}
+      FRAUD_RISK_HIGH: ${FRAUD_RISK_HIGH:-0.70}
+      FRAUD_DEFAULT_THRESHOLD: ${FRAUD_DEFAULT_THRESHOLD:-}
+    volumes: ["prediction-data:/app/data"]
+    restart: unless-stopped
+    init: true
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-/api}
+    ports: ["127.0.0.1:5173:8080"]
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+    init: true
+volumes:
+  prediction-data:

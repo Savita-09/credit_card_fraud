@@ -1,0 +1,30 @@
+{
+  "model_version": "hf-20260910T092649Z",
+  "verified_test_rows": 209715,
+  "hashes": "passed",
+  "saved_preprocessor_parity": "passed",
+  "chronological_boundaries": "passed",
+  "examples": [
+    0.002030507894232869,
+    0.987108051776886
+  ],
+  "metrics": {
+    "accuracy": 0.9969530076532437,
+    "precision": 0.6931297709923664,
+    "recall": 0.7930131004366813,
+    "f1": 0.7397148676171079,
+    "f2": 0.7707979626485568,
+    "roc_auc": 0.9958212619808875,
+    "pr_auc": 0.8045471052296237,
+    "confusion_matrix": [
+      [
+        208168,
+        402
+      ],
+      [
+        237,
+        908
+      ]
+    ]
+  }
+}

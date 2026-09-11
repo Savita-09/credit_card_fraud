@@ -1,0 +1,860 @@
+{
+  "scope": "held-out test set",
+  "summary": {
+    "total": 209715,
+    "fraud": 1310,
+    "legitimate": 208405,
+    "actual_fraud": 1145,
+    "fraud_percentage": 0.6246572729656915
+  },
+  "probability_distribution": [
+    {
+      "label": "0\u20130.1",
+      "count": 201359,
+      "lower": 0.0,
+      "upper": 0.1
+    },
+    {
+      "label": "0.1\u20130.2",
+      "count": 3305,
+      "lower": 0.1,
+      "upper": 0.2
+    },
+    {
+      "label": "0.2\u20130.3",
+      "count": 1331,
+      "lower": 0.2,
+      "upper": 0.30000000000000004
+    },
+    {
+      "label": "0.3\u20130.4",
+      "count": 725,
+      "lower": 0.30000000000000004,
+      "upper": 0.4
+    },
+    {
+      "label": "0.4\u20130.5",
+      "count": 537,
+      "lower": 0.4,
+      "upper": 0.5
+    },
+    {
+      "label": "0.5\u20130.6",
+      "count": 441,
+      "lower": 0.5,
+      "upper": 0.6000000000000001
+    },
+    {
+      "label": "0.6\u20130.7",
+      "count": 401,
+      "lower": 0.6000000000000001,
+      "upper": 0.7000000000000001
+    },
+    {
+      "label": "0.7\u20130.8",
+      "count": 314,
+      "lower": 0.7000000000000001,
+      "upper": 0.8
+    },
+    {
+      "label": "0.8\u20130.9",
+      "count": 301,
+      "lower": 0.8,
+      "upper": 0.9
+    },
+    {
+      "label": "0.9\u20131",
+      "count": 1001,
+      "lower": 0.9,
+      "upper": 1.0
+    }
+  ],
+  "amount_distribution": [
+    {
+      "label": "0\u201310",
+      "count": 54386,
+      "lower": 0.0,
+      "upper": 10.0
+    },
+    {
+      "label": "10\u201325",
+      "count": 20603,
+      "lower": 10.0,
+      "upper": 25.0
+    },
+    {
+      "label": "25\u201350",
+      "count": 33705,
+      "lower": 25.0,
+      "upper": 50.0
+    },
+    {
+      "label": "50\u20131e+02",
+      "count": 63074,
+      "lower": 50.0,
+      "upper": 100.0
+    },
+    {
+      "label": "1e+02\u20132.5e+02",
+      "count": 31731,
+      "lower": 100.0,
+      "upper": 250.0
+    },
+    {
+      "label": "2.5e+02\u20135e+02",
+      "count": 3641,
+      "lower": 250.0,
+      "upper": 500.0
+    },
+    {
+      "label": "5e+02\u20131e+03",
+      "count": 1920,
+      "lower": 500.0,
+      "upper": 1000.0
+    },
+    {
+      "label": "1e+03\u20131.3e+04",
+      "count": 655,
+      "lower": 1000.0,
+      "upper": 12787.51
+    }
+  ],
+  "risk_distribution": [
+    {
+      "label": "Low",
+      "count": 205995
+    },
+    {
+      "label": "Medium",
+      "count": 2104
+    },
+    {
+      "label": "High",
+      "count": 1616
+    }
+  ],
+  "timeline": [
+    {
+      "hour": 8304,
+      "label": "2019-12-13",
+      "transactions": 2665,
+      "flagged": 7
+    },
+    {
+      "hour": 8328,
+      "label": "2019-12-14",
+      "transactions": 5299,
+      "flagged": 22
+    },
+    {
+      "hour": 8352,
+      "label": "2019-12-15",
+      "transactions": 6425,
+      "flagged": 21
+    },
+    {
+      "hour": 8376,
+      "label": "2019-12-16",
+      "transactions": 6127,
+      "flagged": 32
+    },
+    {
+      "hour": 8400,
+      "label": "2019-12-17",
+      "transactions": 2986,
+      "flagged": 21
+    },
+    {
+      "hour": 8424,
+      "label": "2019-12-18",
+      "transactions": 3271,
+      "flagged": 12
+    },
+    {
+      "hour": 8448,
+      "label": "2019-12-19",
+      "transactions": 3678,
+      "flagged": 15
+    },
+    {
+      "hour": 8472,
+      "label": "2019-12-20",
+      "transactions": 3607,
+      "flagged": 23
+    },
+    {
+      "hour": 8496,
+      "label": "2019-12-21",
+      "transactions": 5366,
+      "flagged": 27
+    },
+    {
+      "hour": 8520,
+      "label": "2019-12-22",
+      "transactions": 6325,
+      "flagged": 29
+    },
+    {
+      "hour": 8544,
+      "label": "2019-12-23",
+      "transactions": 5937,
+      "flagged": 47
+    },
+    {
+      "hour": 8568,
+      "label": "2019-12-24",
+      "transactions": 2885,
+      "flagged": 25
+    },
+    {
+      "hour": 8592,
+      "label": "2019-12-25",
+      "transactions": 3274,
+      "flagged": 14
+    },
+    {
+      "hour": 8616,
+      "label": "2019-12-26",
+      "transactions": 3639,
+      "flagged": 10
+    },
+    {
+      "hour": 8640,
+      "label": "2019-12-27",
+      "transactions": 3674,
+      "flagged": 25
+    },
+    {
+      "hour": 8664,
+      "label": "2019-12-28",
+      "transactions": 5552,
+      "flagged": 29
+    },
+    {
+      "hour": 8688,
+      "label": "2019-12-29",
+      "transactions": 6320,
+      "flagged": 26
+    },
+    {
+      "hour": 8712,
+      "label": "2019-12-30",
+      "transactions": 6064,
+      "flagged": 38
+    },
+    {
+      "hour": 8736,
+      "label": "2019-12-31",
+      "transactions": 2896,
+      "flagged": 27
+    },
+    {
+      "hour": 8760,
+      "label": "2020-01-01",
+      "transactions": 1294,
+      "flagged": 6
+    },
+    {
+      "hour": 8784,
+      "label": "2020-01-02",
+      "transactions": 1335,
+      "flagged": 7
+    },
+    {
+      "hour": 8808,
+      "label": "2020-01-03",
+      "transactions": 1424,
+      "flagged": 13
+    },
+    {
+      "hour": 8832,
+      "label": "2020-01-04",
+      "transactions": 2033,
+      "flagged": 19
+    },
+    {
+      "hour": 8856,
+      "label": "2020-01-05",
+      "transactions": 2461,
+      "flagged": 13
+    },
+    {
+      "hour": 8880,
+      "label": "2020-01-06",
+      "transactions": 2379,
+      "flagged": 7
+    },
+    {
+      "hour": 8904,
+      "label": "2020-01-07",
+      "transactions": 1107,
+      "flagged": 14
+    },
+    {
+      "hour": 8928,
+      "label": "2020-01-08",
+      "transactions": 1264,
+      "flagged": 22
+    },
+    {
+      "hour": 8952,
+      "label": "2020-01-09",
+      "transactions": 1404,
+      "flagged": 10
+    },
+    {
+      "hour": 8976,
+      "label": "2020-01-10",
+      "transactions": 1326,
+      "flagged": 9
+    },
+    {
+      "hour": 9000,
+      "label": "2020-01-11",
+      "transactions": 2103,
+      "flagged": 21
+    },
+    {
+      "hour": 9024,
+      "label": "2020-01-12",
+      "transactions": 2468,
+      "flagged": 27
+    },
+    {
+      "hour": 9048,
+      "label": "2020-01-13",
+      "transactions": 2386,
+      "flagged": 18
+    },
+    {
+      "hour": 9072,
+      "label": "2020-01-14",
+      "transactions": 1128,
+      "flagged": 2
+    },
+    {
+      "hour": 9096,
+      "label": "2020-01-15",
+      "transactions": 1252,
+      "flagged": 8
+    },
+    {
+      "hour": 9120,
+      "label": "2020-01-16",
+      "transactions": 1444,
+      "flagged": 11
+    },
+    {
+      "hour": 9144,
+      "label": "2020-01-17",
+      "transactions": 1418,
+      "flagged": 19
+    },
+    {
+      "hour": 9168,
+      "label": "2020-01-18",
+      "transactions": 2087,
+      "flagged": 17
+    },
+    {
+      "hour": 9192,
+      "label": "2020-01-19",
+      "transactions": 2441,
+      "flagged": 19
+    },
+    {
+      "hour": 9216,
+      "label": "2020-01-20",
+      "transactions": 2307,
+      "flagged": 10
+    },
+    {
+      "hour": 9240,
+      "label": "2020-01-21",
+      "transactions": 1073,
+      "flagged": 4
+    },
+    {
+      "hour": 9264,
+      "label": "2020-01-22",
+      "transactions": 1272,
+      "flagged": 6
+    },
+    {
+      "hour": 9288,
+      "label": "2020-01-23",
+      "transactions": 1384,
+      "flagged": 10
+    },
+    {
+      "hour": 9312,
+      "label": "2020-01-24",
+      "transactions": 1466,
+      "flagged": 13
+    },
+    {
+      "hour": 9336,
+      "label": "2020-01-25",
+      "transactions": 2073,
+      "flagged": 11
+    },
+    {
+      "hour": 9360,
+      "label": "2020-01-26",
+      "transactions": 2358,
+      "flagged": 13
+    },
+    {
+      "hour": 9384,
+      "label": "2020-01-27",
+      "transactions": 2342,
+      "flagged": 15
+    },
+    {
+      "hour": 9408,
+      "label": "2020-01-28",
+      "transactions": 1140,
+      "flagged": 4
+    },
+    {
+      "hour": 9432,
+      "label": "2020-01-29",
+      "transactions": 1270,
+      "flagged": 7
+    },
+    {
+      "hour": 9456,
+      "label": "2020-01-30",
+      "transactions": 1373,
+      "flagged": 18
+    },
+    {
+      "hour": 9480,
+      "label": "2020-01-31",
+      "transactions": 1390,
+      "flagged": 17
+    },
+    {
+      "hour": 9504,
+      "label": "2020-02-01",
+      "transactions": 2088,
+      "flagged": 19
+    },
+    {
+      "hour": 9528,
+      "label": "2020-02-02",
+      "transactions": 2384,
+      "flagged": 22
+    },
+    {
+      "hour": 9552,
+      "label": "2020-02-03",
+      "transactions": 2284,
+      "flagged": 16
+    },
+    {
+      "hour": 9576,
+      "label": "2020-02-04",
+      "transactions": 1131,
+      "flagged": 7
+    },
+    {
+      "hour": 9600,
+      "label": "2020-02-05",
+      "transactions": 1294,
+      "flagged": 3
+    },
+    {
+      "hour": 9624,
+      "label": "2020-02-06",
+      "transactions": 1363,
+      "flagged": 5
+    },
+    {
+      "hour": 9648,
+      "label": "2020-02-07",
+      "transactions": 1405,
+      "flagged": 10
+    },
+    {
+      "hour": 9672,
+      "label": "2020-02-08",
+      "transactions": 1964,
+      "flagged": 17
+    },
+    {
+      "hour": 9696,
+      "label": "2020-02-09",
+      "transactions": 2350,
+      "flagged": 14
+    },
+    {
+      "hour": 9720,
+      "label": "2020-02-10",
+      "transactions": 2338,
+      "flagged": 10
+    },
+    {
+      "hour": 9744,
+      "label": "2020-02-11",
+      "transactions": 1150,
+      "flagged": 10
+    },
+    {
+      "hour": 9768,
+      "label": "2020-02-12",
+      "transactions": 1278,
+      "flagged": 5
+    },
+    {
+      "hour": 9792,
+      "label": "2020-02-13",
+      "transactions": 1331,
+      "flagged": 7
+    },
+    {
+      "hour": 9816,
+      "label": "2020-02-14",
+      "transactions": 1386,
+      "flagged": 13
+    },
+    {
+      "hour": 9840,
+      "label": "2020-02-15",
+      "transactions": 2064,
+      "flagged": 18
+    },
+    {
+      "hour": 9864,
+      "label": "2020-02-16",
+      "transactions": 2366,
+      "flagged": 11
+    },
+    {
+      "hour": 9888,
+      "label": "2020-02-17",
+      "transactions": 2411,
+      "flagged": 12
+    },
+    {
+      "hour": 9912,
+      "label": "2020-02-18",
+      "transactions": 1100,
+      "flagged": 3
+    },
+    {
+      "hour": 9936,
+      "label": "2020-02-19",
+      "transactions": 1227,
+      "flagged": 11
+    },
+    {
+      "hour": 9960,
+      "label": "2020-02-20",
+      "transactions": 1393,
+      "flagged": 25
+    },
+    {
+      "hour": 9984,
+      "label": "2020-02-21",
+      "transactions": 1453,
+      "flagged": 23
+    },
+    {
+      "hour": 10008,
+      "label": "2020-02-22",
+      "transactions": 2048,
+      "flagged": 17
+    },
+    {
+      "hour": 10032,
+      "label": "2020-02-23",
+      "transactions": 2434,
+      "flagged": 13
+    },
+    {
+      "hour": 10056,
+      "label": "2020-02-24",
+      "transactions": 2324,
+      "flagged": 10
+    },
+    {
+      "hour": 10080,
+      "label": "2020-02-25",
+      "transactions": 1176,
+      "flagged": 8
+    },
+    {
+      "hour": 10104,
+      "label": "2020-02-26",
+      "transactions": 1233,
+      "flagged": 4
+    },
+    {
+      "hour": 10128,
+      "label": "2020-02-27",
+      "transactions": 1391,
+      "flagged": 22
+    },
+    {
+      "hour": 10152,
+      "label": "2020-02-28",
+      "transactions": 1425,
+      "flagged": 18
+    },
+    {
+      "hour": 10200,
+      "label": "2020-03-01",
+      "transactions": 2718,
+      "flagged": 17
+    },
+    {
+      "hour": 10224,
+      "label": "2020-03-02",
+      "transactions": 3130,
+      "flagged": 28
+    },
+    {
+      "hour": 10248,
+      "label": "2020-03-03",
+      "transactions": 3066,
+      "flagged": 16
+    },
+    {
+      "hour": 10272,
+      "label": "2020-03-04",
+      "transactions": 1533,
+      "flagged": 8
+    },
+    {
+      "hour": 10296,
+      "label": "2020-03-05",
+      "transactions": 1605,
+      "flagged": 7
+    },
+    {
+      "hour": 10320,
+      "label": "2020-03-06",
+      "transactions": 1895,
+      "flagged": 1
+    },
+    {
+      "hour": 10344,
+      "label": "2020-03-07",
+      "transactions": 1889,
+      "flagged": 5
+    },
+    {
+      "hour": 10368,
+      "label": "2020-03-08",
+      "transactions": 2714,
+      "flagged": 13
+    },
+    {
+      "hour": 10392,
+      "label": "2020-03-09",
+      "transactions": 3303,
+      "flagged": 13
+    },
+    {
+      "hour": 10416,
+      "label": "2020-03-10",
+      "transactions": 1879,
+      "flagged": 9
+    }
+  ],
+  "recent": [
+    {
+      "source_row": 838860,
+      "Amount": 58.58,
+      "Time": 29924820.0,
+      "category": "grocery_net",
+      "state": "TX",
+      "city_pop": 248858,
+      "lat": 27.5155,
+      "long": -99.4986,
+      "merch_lat": 27.325208,
+      "merch_long": -99.675903,
+      "actual_class": 0,
+      "fraud_probability": 0.0009935555281117558,
+      "prediction": "Legitimate",
+      "risk_level": "Low"
+    },
+    {
+      "source_row": 838861,
+      "Amount": 73.01,
+      "Time": 29924820.0,
+      "category": "gas_transport",
+      "state": "NC",
+      "city_pop": 885,
+      "lat": 35.9946,
+      "long": -81.7266,
+      "merch_lat": 36.179262,
+      "merch_long": -81.420072,
+      "actual_class": 0,
+      "fraud_probability": 0.0003118870663456619,
+      "prediction": "Legitimate",
+      "risk_level": "Low"
+    },
+    {
+      "source_row": 838862,
+      "Amount": 1.53,
+      "Time": 29924880.0,
+      "category": "entertainment",
+      "state": "NC",
+      "city_pop": 5354,
+      "lat": 35.1959,
+      "long": -83.8228,
+      "merch_lat": 35.021212,
+      "merch_long": -84.687648,
+      "actual_class": 0,
+      "fraud_probability": 0.00035303347976878285,
+      "prediction": "Legitimate",
+      "risk_level": "Low"
+    },
+    {
+      "source_row": 838863,
+      "Amount": 23.32,
+      "Time": 29924880.0,
+      "category": "misc_net",
+      "state": "IN",
+      "city_pop": 76,
+      "lat": 39.013,
+      "long": -86.5457,
+      "merch_lat": 39.934428,
+      "merch_long": -87.097676,
+      "actual_class": 0,
+      "fraud_probability": 0.0007113421452231705,
+      "prediction": "Legitimate",
+      "risk_level": "Low"
+    },
+    {
+      "source_row": 838864,
+      "Amount": 79.07,
+      "Time": 29924880.0,
+      "category": "gas_transport",
+      "state": "GA",
+      "city_pop": 5989,
+      "lat": 31.3826,
+      "long": -81.4312,
+      "merch_lat": 31.459124,
+      "merch_long": -80.622065,
+      "actual_class": 0,
+      "fraud_probability": 0.00030503032030537724,
+      "prediction": "Legitimate",
+      "risk_level": "Low"
+    },
+    {
+      "source_row": 838865,
+      "Amount": 66.55,
+      "Time": 29924940.0,
+      "category": "grocery_net",
+      "state": "NH",
+      "city_pop": 3807,
+      "lat": 43.9742,
+      "long": -71.1503,
+      "merch_lat": 42.975005,
+      "merch_long": -71.065029,
+      "actual_class": 0,
+      "fraud_probability": 0.0012669028947129846,
+      "prediction": "Legitimate",
+      "risk_level": "Low"
+    },
+    {
+      "source_row": 838866,
+      "Amount": 8.93,
+      "Time": 29925000.0,
+      "category": "misc_net",
+      "state": "NY",
+      "city_pop": 1970,
+      "lat": 42.9576,
+      "long": -75.4838,
+      "merch_lat": 42.896181,
+      "merch_long": -76.324641,
+      "actual_class": 0,
+      "fraud_probability": 0.00782201811671257,
+      "prediction": "Legitimate",
+      "risk_level": "Low"
+    },
+    {
+      "source_row": 838867,
+      "Amount": 15.28,
+      "Time": 29925060.0,
+      "category": "entertainment",
+      "state": "CA",
+      "city_pop": 45303,
+      "lat": 33.615,
+      "long": -117.7114,
+      "merch_lat": 34.054514,
+      "merch_long": -118.047004,
+      "actual_class": 0,
+      "fraud_probability": 0.008263939060270786,
+      "prediction": "Legitimate",
+      "risk_level": "Low"
+    },
+    {
+      "source_row": 838868,
+      "Amount": 414.33,
+      "Time": 29925060.0,
+      "category": "misc_net",
+      "state": "AZ",
+      "city_pop": 2872,
+      "lat": 33.2887,
+      "long": -111.0985,
+      "merch_lat": 34.099377,
+      "merch_long": -111.509229,
+      "actual_class": 0,
+      "fraud_probability": 0.026555253192782402,
+      "prediction": "Legitimate",
+      "risk_level": "Low"
+    },
+    {
+      "source_row": 838869,
+      "Amount": 73.4,
+      "Time": 29925060.0,
+      "category": "gas_transport",
+      "state": "PA",
+      "city_pop": 922,
+      "lat": 40.4603,
+      "long": -79.0097,
+      "merch_lat": 40.950738,
+      "merch_long": -78.043975,
+      "actual_class": 0,
+      "fraud_probability": 0.00037526056985370815,
+      "prediction": "Legitimate",
+      "risk_level": "Low"
+    },
+    {
+      "source_row": 838870,
+      "Amount": 118.12,
+      "Time": 29925120.0,
+      "category": "grocery_pos",
+      "state": "NE",
+      "city_pop": 493,
+      "lat": 40.2967,
+      "long": -98.737,
+      "merch_lat": 41.099462,
+      "merch_long": -99.084114,
+      "actual_class": 0,
+      "fraud_probability": 0.0013041743077337742,
+      "prediction": "Legitimate",
+      "risk_level": "Low"
+    },
+    {
+      "source_row": 838871,
+      "Amount": 15.35,
+      "Time": 29925180.0,
+      "category": "shopping_net",
+      "state": "IA",
+      "city_pop": 223,
+      "lat": 42.9633,
+      "long": -94.7975,
+      "merch_lat": 42.296564,
+      "merch_long": -95.648615,
+      "actual_class": 0,
+      "fraud_probability": 0.0015375122893601656,
+      "prediction": "Legitimate",
+      "risk_level": "Low"
+    }
+  ]
+}

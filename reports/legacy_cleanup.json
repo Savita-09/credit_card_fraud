@@ -1,0 +1,338 @@
+[
+  {
+    "Path": "C:\\credit_card_fraud\\dashboard",
+    "Directory": true,
+    "Files": 2,
+    "Bytes": 3075.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\mlruns",
+    "Directory": true,
+    "Files": 42,
+    "Bytes": 6650313.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\src\\api",
+    "Directory": true,
+    "Files": 8,
+    "Bytes": 60781.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\src\\config",
+    "Directory": true,
+    "Files": 6,
+    "Bytes": 7358.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\src\\data",
+    "Directory": true,
+    "Files": 6,
+    "Bytes": 24241.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\src\\database",
+    "Directory": true,
+    "Files": 6,
+    "Bytes": 17432.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\src\\features",
+    "Directory": true,
+    "Files": 4,
+    "Bytes": 13737.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\src\\models",
+    "Directory": true,
+    "Files": 18,
+    "Bytes": 91622.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\src\\monitoring",
+    "Directory": true,
+    "Files": 6,
+    "Bytes": 23311.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\src\\streaming",
+    "Directory": true,
+    "Files": 12,
+    "Bytes": 27077.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\data\\synthetic",
+    "Directory": true,
+    "Files": 5,
+    "Bytes": 8395809.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\artifacts\\20260909T163148Z-05054e1a",
+    "Directory": true,
+    "Files": 6,
+    "Bytes": 2625431.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\artifacts\\20260909T163520Z-aa22c21f",
+    "Directory": true,
+    "Files": 2,
+    "Bytes": 663677.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\artifacts\\20260909T163953Z-65021b9e",
+    "Directory": true,
+    "Files": 7,
+    "Bytes": 4418934.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\artifacts\\current.json",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 80.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\docs\\legacy-readme.md",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 2035.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\docs\\legacy.env.example",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 810.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\docker-compose.legacy.yml",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 668.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\requirements-legacy.txt",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 336.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\requirements-web.txt",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 398.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\scripts\\delayed_label_demo.py",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 1713.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\reports\\evaluation.html",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 5264592.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\data\\source_profile.json",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 8304.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\data\\fraud.db",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 4096.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\data\\fraud.db-shm",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 32768.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\data\\fraud.db-wal",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 1046512.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\data\\processed\\browser_demo.csv",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 1687.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\tests\\conftest.py",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 2088.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\tests\\__init__.py",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 0.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\tests\\test_api.py",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 4349.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\tests\\test_drift.py",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 1048.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\tests\\test_features.py",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 2427.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\tests\\test_feedback.py",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 1518.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\tests\\test_policy.py",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 1051.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\tests\\test_retraining.py",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 1605.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\tests\\test_streaming.py",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 1535.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.pytest_cache",
+    "Directory": true,
+    "Files": 5,
+    "Bytes": 8558.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\pytest-cache-files-7idt2f1j",
+    "Directory": true,
+    "Files": 0,
+    "Bytes": null
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\pytest-cache-files-ssashzav",
+    "Directory": true,
+    "Files": 0,
+    "Bytes": null
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\pytest-cache-files-u7lj8t72",
+    "Directory": true,
+    "Files": 0,
+    "Bytes": null
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\ipython",
+    "Directory": true,
+    "Files": 2,
+    "Bytes": 53619.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\jupyter",
+    "Directory": true,
+    "Files": 1,
+    "Bytes": 176.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\matplotlib",
+    "Directory": true,
+    "Files": 1,
+    "Bytes": 144384.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\oversampling-candidate",
+    "Directory": true,
+    "Files": 8,
+    "Bytes": 32114872.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\oversampling-final",
+    "Directory": true,
+    "Files": 8,
+    "Bytes": 32110958.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\oversampling-final-suite",
+    "Directory": true,
+    "Files": 32,
+    "Bytes": 307975.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\oversampling-suite",
+    "Directory": true,
+    "Files": 32,
+    "Bytes": 307975.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\pytest-run-1",
+    "Directory": true,
+    "Files": 0,
+    "Bytes": null
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\pytest-run-2",
+    "Directory": true,
+    "Files": 18,
+    "Bytes": 1864990.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\recall-target-candidate",
+    "Directory": true,
+    "Files": 8,
+    "Bytes": 32089255.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\tmpuu3u6uwp",
+    "Directory": true,
+    "Files": 0,
+    "Bytes": null
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\web-tests",
+    "Directory": true,
+    "Files": 32,
+    "Bytes": 307911.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\web-tests-final",
+    "Directory": true,
+    "Files": 32,
+    "Bytes": 307911.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\web-tests-release",
+    "Directory": true,
+    "Files": 32,
+    "Bytes": 307975.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\offline_predictions.csv",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 59047.0
+  },
+  {
+    "Path": "C:\\credit_card_fraud\\.tmp\\smote-artifact-path.txt",
+    "Directory": false,
+    "Files": 1,
+    "Bytes": 61.0
+  }
+]

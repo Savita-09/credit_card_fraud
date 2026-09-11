@@ -1,0 +1,26 @@
+{
+  "verified_rows": 56746,
+  "candidate": "ulb-20260910T085138Z",
+  "active": "ulb-20260910T074013Z",
+  "test_metrics": {
+    "accuracy": 0.9972156627779931,
+    "precision": 0.3648068669527897,
+    "recall": 0.8947368421052632,
+    "f1": 0.5182926829268293,
+    "f2": 0.6933115823817292,
+    "roc_auc": 0.9743443001424232,
+    "pr_auc": 0.8547208951626603,
+    "confusion_matrix": [
+      [
+        56503,
+        148
+      ],
+      [
+        10,
+        85
+      ]
+    ]
+  },
+  "artifact_hashes": "passed",
+  "preprocessor_parity": "passed"
+}

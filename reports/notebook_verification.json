@@ -1,0 +1,17 @@
+[
+  {
+    "notebook": "01_eda.ipynb",
+    "executed_code_cells": 5,
+    "errors": 0
+  },
+  {
+    "notebook": "02_preprocessing.ipynb",
+    "executed_code_cells": 4,
+    "errors": 0
+  },
+  {
+    "notebook": "03_model_training.ipynb",
+    "executed_code_cells": 5,
+    "errors": 0
+  }
+]

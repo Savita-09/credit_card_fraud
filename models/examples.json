@@ -1,0 +1,24 @@
+{
+  "legitimate": {
+    "Amount": 4.97,
+    "Time": 0.0,
+    "category": "misc_net",
+    "state": "NC",
+    "city_pop": 3495,
+    "lat": 36.0788,
+    "long": -81.1781,
+    "merch_lat": 36.011293,
+    "merch_long": -82.048315
+  },
+  "fraud": {
+    "Amount": 281.06,
+    "Time": 90360.0,
+    "category": "grocery_pos",
+    "state": "NC",
+    "city_pop": 885,
+    "lat": 35.9946,
+    "long": -81.7266,
+    "merch_lat": 36.430124,
+    "merch_long": -81.179483
+  }
+}

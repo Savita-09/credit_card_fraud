@@ -1,0 +1,11 @@
+{
+  "model_version": "hf-20260910T092649Z",
+  "sha256": {
+    "fraud_model.joblib": "641bb107baa5687c26b7689a5a2508b7535919884c969119d583b6c36d82f319",
+    "preprocessor.joblib": "5afa6fa89e678e30cf2fe80fcabfa68451a1bae46bfa2775447837f1f1fb5968",
+    "model_metadata.json": "cc4f52a37af80cb9f450c965a604aba59a4601bb4b1a9872a88355ee9e1a5c87",
+    "evaluation_snapshot.json": "a381b1ff0afff6da084ca53d48658bb721b1b588a03c9034cb9885041870d936",
+    "examples.json": "43e32f59a564feeea1976d64d3f000135ac14843589a57cfab2234d0a514d0f2",
+    "sample_transactions.csv": "70aa3cb58a424d2a50ebb0193c128c781a728c829bead78a81ea29d380e74cad"
+  }
+}
