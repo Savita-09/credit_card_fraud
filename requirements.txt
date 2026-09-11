@@ -9,7 +9,7 @@ joblib==1.6.0
 matplotlib==3.11.1
 seaborn>=0.13,<0.14
 fastapi==0.141.1
-uvicorn[standard]>=0.34,<1
+uvicorn>=0.34,<1
 pydantic-settings>=2.6,<3
 python-multipart>=0.0.22,<1
 httpx>=0.28,<1
